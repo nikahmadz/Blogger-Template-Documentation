@@ -1,4 +1,4 @@
-# Blogger Theme Design Documentation
+# Blogger Template Documentation
 Unofficial Reference For Blogger Theme Development
 
 > You can create **your own template**.  
