@@ -8,5 +8,3 @@ Code Reference For Blogger Theme Development
 - [Wiki](https://github.com/nikahmadz/Blogger-Template-Documentation/wiki)
 - [Blog](https://templatedocumentation.blogspot.com)
 
-## License
-[GNU General Public License v3.0](https://github.com/nikahmadz/Blogger-Template-Documentation/blob/master/LICENSE)
