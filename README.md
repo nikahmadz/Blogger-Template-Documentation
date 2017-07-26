@@ -1,6 +1,8 @@
 ## Blogger Template Documentation
 Code Reference For Blogger Theme Development
 
+***
+
 This is a project to develop a technical references on codes, tags and data definitions of Blogger's templating system.
 
 > Learn how you can create **your own Blogger template**.  
