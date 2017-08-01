@@ -15,9 +15,12 @@ b:includable
 b:loop
 b:message
 b:param
-b:skin
 b:section
 b:section-contents
+b:skin
+b:switch
+b:case
+b:default
 b:template-skin
 b:variable
 b:widget-setting
