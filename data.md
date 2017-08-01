@@ -123,6 +123,7 @@ messages.morePosts
 messages.postAComment
 messages.posts
 messages.showAll
+messages.subscribeTo
 messages.visitProfile
 ```
 ## Post
