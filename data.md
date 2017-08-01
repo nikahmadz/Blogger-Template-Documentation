@@ -46,7 +46,7 @@ blog.searchQuery
 blog.pageName
 blog.pageType
 blog.pageTitle
-blog.feedLinks
+blog.feedLinks: The autodiscovery feed links for the page header.
 ```
 ## Page Header
 ```
