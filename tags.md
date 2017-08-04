@@ -21,6 +21,7 @@ b:skin
 b:switch
 b:case
 b:default
+b:tag
 b:template-skin
 b:variable
 b:widget-setting
