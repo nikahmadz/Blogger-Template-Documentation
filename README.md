@@ -13,3 +13,5 @@ This is a project to develop a technical references on codes, tags and data defi
 - [Blog](https://templatedocumentation.blogspot.com)
 
 Also visit sister project -- the [**Theme Basics**](https://nikahmadz.github.io/Theme-Basics) -- for tutorial notes & articles on building a Blogger theme.
+
+Visit: [**Lab Site**](https://acetheme.blogspot.my)
