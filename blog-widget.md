@@ -40,14 +40,12 @@ post.messages.blogComment
 ```
 ### data:feedLinks > data:feedlink
 ```
-feedLink.title
 feedLink.name
 feedLink.url
 feedLink.mimeType
 feedLink.feedType
 ```
 feedLinks: A list of feeds for this page. On the main page, this will contain the main blog feeds; on item pages, this will also contain comments feeds. Each item in this list contains the following:   
-- feedLink.title: The feed title.
 - feedLink.url: The feed URL.
 - feedLink.name: The feed name (i.e. 'Posts' or 'Comments').
 - feedLink.feedType: The type of feed (Atom or RSS).
