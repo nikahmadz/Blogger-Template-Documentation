@@ -1,6 +1,7 @@
 # Data
 - [**data:view**](https://github.com/nikahmadz/Blogger-Template-Documentation/blob/master/data-view.md)
 - [**data:blog**](https://github.com/nikahmadz/Blogger-Template-Documentation/blob/master/data-blog.md)
+- [**data:messages**](https://github.com/nikahmadz/Blogger-Template-Documentation/blob/master/data-messages.md)
 
 ## Page Header
 ```
@@ -67,18 +68,6 @@ posts: A list of all posts for this page. Each post contains the following:
 **data:link**
 ```
 link.title
-```
-## Messages
-**data:messages**
-```
-messages.archive
-messages.moreEllipsis
-messages.morePosts
-messages.postAComment
-messages.posts
-messages.showAll
-messages.subscribeTo
-messages.visitProfile
 ```
 ## Post
 **data:post**
