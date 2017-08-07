@@ -38,14 +38,24 @@ cmtIframeInitialHeight
 post.adNumber
 post.messages.blogComment
 ```
-
-
+### data:feedLinks > data:link
 ```
-feedLinks: A list of feeds for this page. On the main page, this will contain the main blog feeds; on item pages, this will also contain comments feeds. Each item in this list contains the following:
-  feedLinks.url: The feed URL.
-  feedLinks.name: The feed name (i.e. 'Posts' or 'Comments').
-  feedLinks.feedType: The type of feed (Atom or RSS).
-  feedLinks.mimeType: The mime type of the feed.
+feedLink.title
+feedLink.name
+feedLink.url
+feedLink.mimeType
+feedLink.feedType
+```
+feedLinks: A list of feeds for this page. On the main page, this will contain the main blog feeds; on item pages, this will also contain comments feeds. Each item in this list contains the following:   
+- feedLink.title: The feed title.
+- feedLink.url: The feed URL.
+- feedLink.name: The feed name (i.e. 'Posts' or 'Comments').
+- feedLink.feedType: The type of feed (Atom or RSS).
+- feedLink.mimeType: The mime type of the feed.
+
+### data:comments > data:comment
+```
+comments feeds. Each item in this list contains the following:
 
 olderPageUrl: If there are older posts than the ones on the current page, this is a URL to those posts. Context-sensitive for page type. (Not all pages will have this link.)
 olderPageTitle: Title of the link to the older page of posts.
@@ -94,8 +104,4 @@ posts: A list of all posts for this page. Each post contains the following:
     posts.comments.authorUrl: URL of the comment author's profile, if the comment is not anonymous.
     posts.comments.deleteUrl: The URL for deleting this comment.
     posts.comments.isDeleted: Whether this comment has been deleted. (The text of deleted comments is replaced with a placeholder.)
-```
-### data:posts > data:post.feedLinks > data:link
-```
-link.title
 ```
