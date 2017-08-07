@@ -1,27 +1,6 @@
 # Data
-## View
-**data:view**
-```
-view.archive.rangeMessage
-view.isArchive
-view.isError
-view.isHomepage
-view.isSearch
-view.isSingleItem
-view.isMultipleItems
-view.isLayoutMode
-view.isPage
-view.isPost
-view.isPreview
-view.isLabelSearch
-view.search.resultsMessageHtml
-view.title
-view.title.escaped
-view.type
-view.description
-view.url
-view.url.canonical
-```
+- [**data:view**](https://github.com/nikahmadz/Blogger-Template-Documentation/blob/master/data-view.md)
+
 ## Blog
 **data:blog**
 ```
