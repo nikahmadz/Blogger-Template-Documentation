@@ -23,6 +23,8 @@ blog.localeUnderscoreDelimited
 blog.locale
 blog.locale.languageAlignment
 blog.adsenseHasAds
+blog.adsenseClientId
 blog.enabledCommentProfileImages
 blog.feedLinks: The autodiscovery feed links for the page header.
+blog.jumpLinkMessage
 ```
