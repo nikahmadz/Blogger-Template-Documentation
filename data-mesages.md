@@ -13,7 +13,7 @@ messages.subscribeTo
 messages.visitProfile
 ```
 
-# Blog Widget
+## Blog Widget
 ```
 this.messages.blogComment
 ```
