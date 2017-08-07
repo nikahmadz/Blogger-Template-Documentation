@@ -23,3 +23,9 @@ style.bordercolor
 showInlineAds
 showReactions
 ```
+
+### data:post
+```
+posts
+post.messages.blogComment
+```
