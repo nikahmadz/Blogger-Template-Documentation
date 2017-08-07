@@ -1,3 +1,4 @@
+# [Data](https://github.com/nikahmadz/Blogger-Template-Documentation/blob/master/data.md)
 ## data:blog
 ```
 blog.adsenseHasAds
