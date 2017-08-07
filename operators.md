@@ -1,4 +1,4 @@
-# Operators exepted in `expr:`
+# Operators accepted in `expr:`
 
 ```
 not
