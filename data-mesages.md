@@ -12,3 +12,8 @@ messages.showAll
 messages.subscribeTo
 messages.visitProfile
 ```
+
+## Blog Widget
+```
+this.messages.blogComment
+```
