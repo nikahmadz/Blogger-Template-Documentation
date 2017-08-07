@@ -30,6 +30,7 @@ numPosts
 showCmtPopup
 newerPageUrl
 olderPageUrl
+cmtIframeInitialHeight
 ```
 
 ### data:posts > data:post
