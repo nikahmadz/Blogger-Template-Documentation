@@ -3,7 +3,6 @@
 ```
 messages.comments
 messages.postAComment
-messages.blogComment
 messages.archive
 messages.moreEllipsis
 messages.morePosts
@@ -12,4 +11,9 @@ messages.posts
 messages.showAll
 messages.subscribeTo
 messages.visitProfile
+```
+
+# Blog Widget
+```
+this.messages.blogComment
 ```
