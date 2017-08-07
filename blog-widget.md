@@ -23,10 +23,18 @@ style.bordercolor
 showInlineAds
 showReactions
 ```
-
-### data:post
+### Vars
 ```
-posts
+widget.instanceId
+numPosts
+showCmtPopup
+newerPageUrl
+olderPageUrl
+```
+
+### data:posts > data:post
+```
+post.adNumber
 post.messages.blogComment
 ```
 
@@ -86,13 +94,7 @@ posts: A list of all posts for this page. Each post contains the following:
     posts.comments.deleteUrl: The URL for deleting this comment.
     posts.comments.isDeleted: Whether this comment has been deleted. (The text of deleted comments is replaced with a placeholder.)
 ```
-## Link
-**data:link**
+### data:posts > data:post.feedLinks > data:link
 ```
 link.title
-```
-## Post
-**data:post**
-```
-post.adNumber
 ```
