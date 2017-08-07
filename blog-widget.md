@@ -38,7 +38,7 @@ cmtIframeInitialHeight
 post.adNumber
 post.messages.blogComment
 ```
-### data:feedLinks > data:link
+### data:feedLinks > data:feedlink
 ```
 feedLink.title
 feedLink.name
