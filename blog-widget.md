@@ -23,6 +23,44 @@ style.bordercolor
 showInlineAds
 showReactions
 ```
+### Includables
+```
+<!-- main -->
+<!-- aboutPostAuthor -->
+<!-- addComments -->
+<!-- commentAuthorAvatar -->
+<!-- commentDeleteIcon -->
+<!-- commentForm -->
+<!-- commentFormIframeSrc -->
+<!-- commentItem -->
+<!-- commentList -->
+<!-- commentPicker -->
+<!-- comments -->
+<!-- commentsTitle -->
+<!-- feedLinks -->
+<!-- feedLinksBody -->
+<!-- homePageLink -->
+<!-- iframeComments -->
+<!-- inlineAd -->
+<!-- nextPageLink -->
+<!-- post -->
+<!-- postBody -->
+<!-- postBodySnippet -->
+<!-- postCommentsAndAd -->
+<!-- postCommentsLink -->
+<!-- postFooter -->
+<!-- postFooterAuthorProfile -->
+<!-- postHeader -->
+<!-- postJumpLink -->
+<!-- postMeta -->
+<!-- postPagination -->
+<!-- postTitle -->
+<!-- previousPageLink -->
+<!-- threadedCommentForm -->
+<!-- threadedCommentJs -->
+<!-- threadedComments -->
+```
+
 ### Vars
 ```
 widget.instanceId
