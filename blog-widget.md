@@ -65,16 +65,30 @@ showReactions
 ```
 widget.instanceId
 numPosts
-showCmtPopup
-newerPageUrl
+olderPageTitle
 olderPageUrl
+newerPageTitle
+newerPageUrl
+commentLabel
+authorLabel
+timestampLabel
+postLabelsLabel
+backlinksLabel
+showCmtPopup
 cmtIframeInitialHeight
 ```
+- olderPageTitle: Title of the link to the older page of posts.
+- olderPageUrl: If there are older posts than the ones on the current page, this is a URL to those posts. Context-sensitive for page type. (Not all pages will have this link.)
+- newerPageTitle: The newer equivalent of olderPageTitle.
+- newerPageUrl: The newer equivalent of olderPageUrl.
+- commentLabel: The phrase to use to show the number of comments, e.g. "comments."
+- authorLabel: The phrase to use to indicate who wrote the post, e.g. "posted by."
+- timestampLabel: The phrase to use to indicate when the post was written, e.g. "posted at."
+- postLabelsLabel: Phrase to introduce the list of post labels, e.g. "labels for this post."
+- backlinksLabel: Phrase to describe backlinks to this post, e.g. "links to this post."
 
 ### data:posts > data:post
 ```
-post.adNumber
-post.messages.blogComment
 ```
 ### data:feedLinks > data:feedlink
 ```
@@ -83,7 +97,7 @@ feedLink.url
 feedLink.mimeType
 feedLink.feedType
 ```
-feedLinks: A list of feeds for this page. On the main page, this will contain the main blog feeds; on item pages, this will also contain comments feeds. Each item in this list contains the following:   
+- feedLinks: A list of feeds for this page. On the main page, this will contain the main blog feeds; on item pages, this will also contain comments feeds. Each item in this list contains the following:   
 - feedLink.url: The feed URL.
 - feedLink.name: The feed name (i.e. 'Posts' or 'Comments').
 - feedLink.feedType: The type of feed (Atom or RSS).
@@ -92,17 +106,14 @@ feedLinks: A list of feeds for this page. On the main page, this will contain th
 ### data:comments > data:comment
 ```
 comments feeds. Each item in this list contains the following:
+```
 
-olderPageUrl: If there are older posts than the ones on the current page, this is a URL to those posts. Context-sensitive for page type. (Not all pages will have this link.)
-olderPageTitle: Title of the link to the older page of posts.
-newerPageUrl: The newer equivalent of olderPageUrl.
-newerPageTitle: The newer equivalent of olderPageTitle.
-commentLabel: The phrase to use to show the number of comments, e.g. "comments."
-authorLabel: The phrase to use to indicate who wrote the post, e.g. "posted by."
-timestampLabel: The phrase to use to indicate when the post was written, e.g. "posted at."
-postLabelsLabel: Phrase to introduce the list of post labels, e.g. "labels for this post."
-backlinksLabel: Phrase to describe backlinks to this post, e.g. "links to this post."
+```
+post.adNumber
+post.messages.blogComment
+```
 
+```
 posts: A list of all posts for this page. Each post contains the following:
 
   posts.dateHeader: The date of this post, only present if this is the first post in the list that was posted on this day.
