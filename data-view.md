@@ -6,6 +6,8 @@ view.title.escaped
 view.description
 view.description.escaped
 view.type
+view.archive.rangeMessage
+view.search.resultsMessageHtml
 view.url
 view.url.canonical
 view.isLayoutMode
@@ -19,6 +21,4 @@ view.isPost
 view.isError
 view.isSingleItem
 view.isMultipleItems
-view.archive.rangeMessage
-view.search.resultsMessageHtml
 ```
