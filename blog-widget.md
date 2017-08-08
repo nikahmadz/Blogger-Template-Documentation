@@ -90,23 +90,6 @@ cmtIframeInitialHeight
 ### data:posts > data:post
 ```
 ```
-### data:feedLinks > data:feedlink
-```
-feedLink.name
-feedLink.url
-feedLink.mimeType
-feedLink.feedType
-```
-- feedLinks: A list of feeds for this page. On the main page, this will contain the main blog feeds; on item pages, this will also contain comments feeds. Each item in this list contains the following:   
-- feedLink.url: The feed URL.
-- feedLink.name: The feed name (i.e. 'Posts' or 'Comments').
-- feedLink.feedType: The type of feed (Atom or RSS).
-- feedLink.mimeType: The mime type of the feed.
-
-### data:comments > data:comment
-```
-comments feeds. Each item in this list contains the following:
-```
 
 ```
 post.adNumber
@@ -152,3 +135,21 @@ posts: A list of all posts for this page. Each post contains the following:
     posts.comments.deleteUrl: The URL for deleting this comment.
     posts.comments.isDeleted: Whether this comment has been deleted. (The text of deleted comments is replaced with a placeholder.)
 ```
+### data:feedLinks > data:feedlink
+```
+feedLink.name
+feedLink.url
+feedLink.mimeType
+feedLink.feedType
+```
+- feedLinks: A list of feeds for this page. On the main page, this will contain the main blog feeds; on item pages, this will also contain comments feeds. Each item in this list contains the following:   
+- feedLink.url: The feed URL.
+- feedLink.name: The feed name (i.e. 'Posts' or 'Comments').
+- feedLink.feedType: The type of feed (Atom or RSS).
+- feedLink.mimeType: The mime type of the feed.
+
+### data:comments > data:comment
+```
+comments feeds. Each item in this list contains the following:
+```
+
